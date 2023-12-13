@@ -46,7 +46,7 @@
     justify-content: space-around;   
 }
 
-a {
+.menu {
     text-decoration: none;
 
     color: white;
@@ -81,11 +81,24 @@ a {
 .fucsia {
     width: 50%;
     height: 80%;
+}
 
-    background-color: #EE82EE;
+.testo-bianco {
+    text-align: center;
+    color: white;
+}
 
-    border: 3px dashed black;
-    border-radius: 3px;
+.pulsanti {
+    text-decoration: none;
+    color: white;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.due {
+    color: black;
 }
 
 .white {
