@@ -98,7 +98,7 @@
     padding: 15px ;
 }
 
-.pulsante-uno , pulsante-due {
+.pulsante-uno , pulsante-due , .pulsante-celeste {
     text-decoration: none;
     color: white;
 }
@@ -279,4 +279,20 @@
     border: 2px dashed black;
 
     display: inline-block;
+}
+
+.pulsante-celeste {
+    background-color: #8EA1E1;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+h3 {
+    background-image: url(img/stars.svg);
+    padding-bottom: 40px;
+}
+
+.ready {
+    display: flex;
+    justify-content: center;
 }
