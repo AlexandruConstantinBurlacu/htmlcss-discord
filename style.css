@@ -188,9 +188,14 @@
     width: 70%;
     height: 90%;
 
-    background-color: green;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-    border: 3px dashed black;
+.testo-nero {
+    text-align: center;
+    padding: 20px;
 }
 
 .black {
