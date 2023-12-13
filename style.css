@@ -86,19 +86,40 @@
 .testo-bianco {
     text-align: center;
     color: white;
+
+    padding: 10px;
 }
 
-.pulsanti {
+.center {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    padding: 15px ;
+}
+
+.pulsante-uno , pulsante-due {
     text-decoration: none;
     color: white;
-
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
 }
 
-.due {
+.pulsante-uno {
+    display: inline-block;
+
+    background-color: white;
     color: black;
+
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.pulsante-due {
+    display: inline-block;
+    color: white;
+
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .white {
