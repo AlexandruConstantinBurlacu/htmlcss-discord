@@ -21,8 +21,6 @@
     width: 1250px;
     height: 50%;
 
-    background-color: #DAA520;
-
     display: flex;
     align-items: center;
 }
@@ -32,8 +30,6 @@
 
     width: 25%;
     height: 100%;
-
-    border: 3px dashed black;
     
     display: flex;
     align-items: center;
@@ -44,8 +40,6 @@
 
     width: 50%;
     height: 100%;
-
-    border: 3px dashed black;
 
     display: flex;
     align-items: center;
@@ -64,11 +58,15 @@ a {
     width: 25%;
     height: 100%;
 
-    border: 3px dashed black;
-
     display: flex;
     align-items: center;
     justify-content: flex-end;
+}
+
+.span-login {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .blue {
