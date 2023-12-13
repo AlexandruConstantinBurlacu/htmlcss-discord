@@ -4,11 +4,13 @@
     box-sizing: border-box;
 }
 
+.jumbo {
+    background-image: url(img/jumbo.png);
+}
+
 .intro {
     width: 100%;
     height: 85px;
-
-    background-color: #ADD8E6;
     
     display: flex;
     align-items: center;
@@ -72,8 +74,6 @@ a {
 .blue {
     width: 100%;
     height: 520px;
-
-    background-color: #00008B;
 
     display: flex;
     align-items: center;
