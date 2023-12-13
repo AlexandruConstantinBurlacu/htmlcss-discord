@@ -27,28 +27,43 @@
 
 .logo {
     display: inline-block;
+
     width: 25%;
     height: 100%;
+
     border: 3px dashed black;
+    
     display: flex;
     align-items: center;
 }
 
 .link {
     display: inline-block;
+
     width: 50%;
     height: 100%;
+
     border: 3px dashed black;
+
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;   
+}
+
+a {
+    text-decoration: none;
+
+    color: white;
 }
 
 .login {
     display: inline-block;
+
     width: 25%;
     height: 100%;
+
     border: 3px dashed black;
+
     display: flex;
     align-items: center;
     justify-content: flex-end;
