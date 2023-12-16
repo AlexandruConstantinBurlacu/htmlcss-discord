@@ -238,13 +238,24 @@ body {
     padding: 30px;
 }
 
-h2 {
+h2 , .ciano h4 {
     color: #7289da;
+    margin-bottom: 20px;
+}
+
+.lingua {
+    margin-bottom: 30px;
 }
 
 .lingua img {
     height: 22px;
     width: auto;
+}
+
+.icone {
+    display: flex;
+    vertical-align: middle;
+    gap: 20px;
 }
 
 .icone , .lingua {
@@ -255,8 +266,6 @@ h2 {
     width: 66%;
     height: 100%;
 
-    border: 3px dashed black;
-
     display: flex;
     align-items: normal;
 }
@@ -264,10 +273,19 @@ h2 {
 .ciano {
     width: 25%;
     height: 100%;
+}
 
-    background-color: #20B2AA;
+.ciano h4 {
+    margin-top: 30px;
+}
 
-    border: 3px dashed white;
+.ciano ul {
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: column;
+
+    color: white;
 }
 
 .last {
