@@ -235,9 +235,20 @@ body {
     width: 33%;
     height: 100%;
 
-    background-color: #FFC0CB;
+    padding: 30px;
+}
 
-    border: 3px dashed black;
+h2 {
+    color: #7289da;
+}
+
+.lingua img {
+    height: 22px;
+    width: auto;
+}
+
+.icone , .lingua {
+    color: white;
 }
 
 .box-ciano {
